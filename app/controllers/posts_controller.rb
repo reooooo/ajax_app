@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   def index
-    @posts = Post.all.oredr(id： "DESC")
+    @posts = Post.all.oredr(id: "DESC")
   end
 
   def create
